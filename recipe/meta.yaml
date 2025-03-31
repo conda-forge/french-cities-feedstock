@@ -1,5 +1,5 @@
 {% set name = "french-cities" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/french_cities-{{ version }}.tar.gz
-  sha256: 3cd3db368dd03b221d060a019c9a1a4f024ddbfb3626358570f21da8eae36bfa
+  sha256: b3afbb49bdc43a2aae286ed1917b455ca4b0b81d3b7b154dd8a1c0e4862fb1c6
 
 build:
   noarch: python
