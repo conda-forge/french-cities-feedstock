@@ -34,7 +34,7 @@ requirements:
     - diskcache >=5.6.3,<6.0.0
     - platformdirs >=4.2.2,<5.0.0
     - setuptools >=75.8.0,<76.0.0
-    - pynsee >=0.2.0,<0.3.0
+    - pynsee >=0.2.1,<0.3.0
 
 test:
   imports:
